@@ -1,0 +1,45 @@
+h1 {
+    font-family: AmstelvarAlpha;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+}
+
+h2 {
+    font-family: AmstelvarAlpha;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+}
+
+
+body {
+    background: #333;
+    color: white;
+}
+
+header {
+    background: white; 
+    color: #333;
+    border-width: 30px; 
+    border-style: outset; 
+    border-color: yellow; 
+    border-bottom-color: green;
+    border-left-style: dashed; 
+    border-left-color: violet; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+main {
+    background: black; 
+    color: white; 
+    width: 500px; 
+    height: 1300px; 
+    margin-top: 50px; 
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-left: 100px; 
+    border-bottom: 30px yellow solid; 
+    border-top: 30px yellow double; 
+}
