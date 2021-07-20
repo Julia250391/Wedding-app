@@ -22,38 +22,34 @@ font-size: 36px;
 
 #eins {
     font-size: 100%;
-    color: salmon;
     text-align:center;
   }
 
 
 body {
-    
+    margin:0;
 }
 
 header {
-    
+    margin:0;
 }
 
 main {
-    
-}
+    margin:0;
+    padding:0;
+    }
 
 .welcome {
     width: 375px;
     height: 552px;
     left: 0px;
-    top: -88px;
+    top: 0px;
+    text-align:center;
 
-    background: url(images/peonies.jpg);
+    background: url(210720_images/peonies.jpg);
 
     background-size: cover;
-    width: 375px;
-    height: 552px;
-    left: 0px;
-    top: -88px;
-
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
 }
 
 .story {
@@ -61,33 +57,70 @@ main {
     height: 377px;
     left: 0px;
     top: 552px;
+    text-align:center;
     
     background: rgba(232, 226, 220, 0.7);
     backdrop-filter: blur(4px); 
+}
+
+.timer { /* hier fehlt noch die Transparenz für das Bild für den Hintergrund */
+    width: 375px;
+    height: 336px;
+    left: 0px;
+    top: 929px;
+    text-align:center;
+
+    background: rgba(168, 136, 142, 0.7);
+    background: url(210720_images/calendar.jpg);
 }
 
 .hotels {
     width: 375px;
     height: 377px;
     left: 0px;
-    top: 552px;
+    top: 1265px;
+    text-align:center;
 
     background: rgba(232, 226, 220, 0.7);
 }
 
+.gifts { /* hier fehlt noch die Transparenz für das Bild für den Hintergrund */
+    width: 375px;
+    height: 423px;
+    left: 0px;
+    top: 1642px;
+    text-align:center;
+
+    background: rgba(168, 136, 142, 0.7);
+    backdrop-filter: blur(4px);
+}
+
 .menue {
     width: 375px;
-    height: 377px;
+    height: 370px;
     left: 0px;
-    top: 552px;
+    top: 2065px;
+    text-align:center;
+
+    background: rgba(232, 226, 220, 0.7);
+    background: url(210720_images/menue.jpg);
 }
 
 .contact {
     width: 375px;
     height: 700px;
     left: 0px;
-    top: 0px;
+    top: 2435px;
+    text-align:center;
 
     background: rgba(168, 136, 142, 0.7);
 }
 
+.footer {
+    width: 375px;
+    height: 78px;
+    left: 0px;
+    top: 3135px;
+
+    background: rgba(232, 226, 220, 0.7);
+}
