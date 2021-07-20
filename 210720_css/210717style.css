@@ -1,0 +1,93 @@
+h1 {
+    font-family: AmstelvarAlpha;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+
+position: absolute;
+width: 257px;
+height: 70px;
+left: 66px;
+top: 173px;
+
+text-align: center;
+}
+
+h2 {
+    font-family: AmstelvarAlpha;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+}
+
+#eins {
+    font-size: 100%;
+    color: salmon;
+    text-align:center;
+  }
+
+
+body {
+    
+}
+
+header {
+    
+}
+
+main {
+    
+}
+
+.welcome {
+    width: 375px;
+    height: 552px;
+    left: 0px;
+    top: -88px;
+
+    background: url(images/peonies.jpg);
+
+    background-size: cover;
+    width: 375px;
+    height: 552px;
+    left: 0px;
+    top: -88px;
+
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.story {
+    width: 375px;
+    height: 377px;
+    left: 0px;
+    top: 552px;
+    
+    background: rgba(232, 226, 220, 0.7);
+    backdrop-filter: blur(4px); 
+}
+
+.hotels {
+    width: 375px;
+    height: 377px;
+    left: 0px;
+    top: 552px;
+
+    background: rgba(232, 226, 220, 0.7);
+}
+
+.menue {
+    width: 375px;
+    height: 377px;
+    left: 0px;
+    top: 552px;
+}
+
+.contact {
+    width: 375px;
+    height: 700px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(168, 136, 142, 0.7);
+}
+
