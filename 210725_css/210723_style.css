@@ -1,0 +1,214 @@
+h1 {
+    font-family: AmstelvarAlpha;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+width: 257px;
+height: 70px;
+left: 66px;
+top: 173px;
+
+}
+
+h2 {
+    font-family: AmstelvarAlpha;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+padding-top: 30px;
+}
+
+p {
+    font-family: AmstelvarAlpha;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+padding: 20px;
+}
+
+body {
+    margin:0px;
+}
+
+header {
+   margin: 0;
+   text-align: center;
+}
+
+main {
+    margin: 0px;
+    padding:0;
+    }
+
+.welcome {
+   text-align: center;
+    background: url(210720_images/peonies.jpg);
+   
+}
+
+.story {
+    text-align:center;
+    margin-top: -30px;
+    
+    background: rgba(232, 226, 220, 0.7);
+    backdrop-filter: blur(4px); 
+    padding-bottom: 20px;
+}
+
+.timer { /* hier fehlt noch die Transparenz für das Bild für den Hintergrund */
+    position: relative;
+    text-align:center;
+    margin-top: -30px;
+    padding-bottom: 20px;
+}
+
+.timer h2 {
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #000;
+}
+
+.timer p {
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #000;
+}
+
+
+.timer img {
+    position: absolute;
+    clip:rect(auto auto 330px auto);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.hotels {
+
+    text-align:center;
+    margin-top: -30px;
+
+    background: rgba(232, 226, 220, 0.7);
+    padding-bottom: 20px;
+
+    z-index: 2;
+    position: relative;
+    color: #000;
+}
+
+.hotels p{
+    padding-top: 100px;
+}
+
+.button1 {
+    display: block;
+    text-align: center;
+    width: 183px;
+    height: 100px; 
+    background: rgba(168, 136, 142, 0.7);
+    border-radius: 90px;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    border-radius: 3em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    padding: 1em 2em;
+    width: auto;
+}
+
+.gifts { /* hier fehlt noch die Transparenz für das Bild für den Hintergrund */
+    position: relative;
+    text-align:center;
+    margin-top: -30px;
+
+    background: rgba(168, 136, 142, 0.7);
+    backdrop-filter: blur(4px);
+    padding-bottom: 20px;
+}
+
+.gifts img {
+    position: absolute;
+    clip:rect(auto auto 464px auto);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.gifts h2 {
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #000;
+}
+
+.gifts p {
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #000;
+}
+
+.menue {
+    position: relative;
+    text-align:center;
+    margin-top: -30px;
+
+    background: rgba(232, 226, 220, 0.7);
+    padding-bottom: 20px;
+}
+
+.menue img {
+    position: absolute;
+    clip:rect(auto auto 464px auto);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.menue h2 {
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #000;
+}
+
+.menue p {
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #000;
+}
+
+.contact {
+
+    text-align:center;
+    margin-top: -30px;
+
+    background: rgba(168, 136, 142, 0.7);
+
+}
+
+.contact img {
+    border-radius: 30px;
+}
+
+.contact p{
+    padding-bottom: 80px;
+}
+
+.footer {
+    padding-top: 30px;
+    background: rgba(232, 226, 220, 0.7);
+    margin-bottom: -30px;
+}
