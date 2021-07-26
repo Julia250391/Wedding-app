@@ -1,0 +1,96 @@
+h1 {
+    font-family: AmstelvarAlpha;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+padding-top: 250px;
+
+}
+
+h2 {
+    font-family: AmstelvarAlpha;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+padding-top: 30px;
+}
+
+p {
+    font-family: AmstelvarAlpha;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+padding: 20px;
+}
+
+body {
+    margin:0px;
+}
+
+header {
+   margin: 0;
+   text-align: center;
+}
+
+main {
+    padding-top: 240px;
+    text-align: center;
+}
+
+.intro {
+    position: relative; 
+    padding-top: 10px;
+}
+
+
+.intro img {
+        position: absolute;
+        clip:rect(auto auto 600px auto);
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+        opacity: 0.2;
+        z-index: 1;
+    }
+
+.textbox {
+    background: rgba(232, 226, 220, 0.7);
+    padding-top: 40px;
+    padding-bottom: 40px; 
+    margin-top: -10px
+}
+
+
+.ideas {
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.ideas img {
+    margin-top: 40px;
+    border-radius: 30px;
+}
+
+.contact {
+padding-top: 40px;
+    text-align:center;
+
+    background: rgba(168, 136, 142, 0.7);
+
+}
+
+.contact img {
+    border-radius: 30px;
+}
+
+.contact p{
+    padding-bottom: 80px;
+}
+
+.footer {
+    padding-top: 30px;
+    background: rgba(232, 226, 220, 0.7);
+    margin-bottom: -30px;
+}
+
