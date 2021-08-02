@@ -91,7 +91,7 @@ img {
 
 .index-page {
    // here index specific styles
-   .button1 {
+   .button {
         margin-top: 20px;
         a {
             text-align: center;
@@ -131,10 +131,8 @@ img {
             font-size: 16px;
         }
         .idea {
-            display: flex;
-            flex-direction: column;
-            flex-basis: 100%;
             flex: 1;
+            margin: 5px;
         }
     }
 }
