@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap");
+h1 {
+  font-family: "WindSong", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 50px;
+}
+
+h2 {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 36px;
+  padding-top: 30px;
+}
+
+p {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 20px;
+  padding: 0 40px;
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  margin: 0;
+  text-align: center;
+}
+
+main {
+  padding-top: 0;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.intro {
+  position: relative;
+  padding-top: 10px;
+  height: 200px;
+}
+.intro img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-height: 100%;
+  opacity: 0.2;
+  z-index: 1;
+  object-fit: cover;
+  width: 100%;
+  min-height: 100%;
+}
+
+.textbox {
+  background: rgba(232, 226, 220, 0.7);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: -10px;
+}
+
+.contact {
+  padding-top: 40px;
+  text-align: center;
+  background: rgba(168, 136, 142, 0.7);
+}
+.contact img {
+  border-radius: 30px;
+  height: auto;
+}
+.contact p {
+  padding-bottom: 80px;
+}
+
+.footer {
+  padding-top: 30px;
+  background: rgba(232, 226, 220, 0.7);
+  margin-bottom: -30px;
+}
+
+.index-page .button {
+  margin-top: 20px;
+}
+.index-page .button a {
+  text-align: center;
+  display: inline-block;
+  background: rgba(168, 136, 142, 0.7);
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 3em;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  padding: 10px 25px;
+  width: auto;
+}
+
+.gifts-page h1 {
+  font-size: 30px;
+}
+.gifts-page .ideas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+.gifts-page .ideas img {
+  margin-top: 40px;
+  border-radius: 30px;
+  height: 128px;
+  width: auto;
+}
+.gifts-page .ideas p {
+  font-size: 16px;
+}
+.gifts-page .ideas .idea {
+  flex: 1;
+  margin: 5px;
+}
