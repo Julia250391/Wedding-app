@@ -7,13 +7,31 @@
         <link href="dist/styles.css" rel="stylesheet">
     </head>
     <body class="index-page">
+		<!--Navigation-->
+		<nav role="navigation">
+			<div id="menuToggle">
+				<input type="checkbox" />
+					<span></span>
+					<span></span>
+					<span></span>
+				<ul id="menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#hotels">Hotels</a></li>
+					<li><a href="#gifts">Gifts</a></li>
+					<li><a href="#menue">Menu</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+	
         <header>
-            <div class="welcome intro">
-            <h1>Mona's & Tom's Wedding</h1>
-            <img src="images/peonies.jpg" alt="peonies">
-        </div>
+  
         </header>
         <main>
+			<div class="welcome intro">
+				<h1>Mona's & Tom's Wedding</h1>
+				<img src="images/peonies.jpg" alt="peonies">
+			</div>
             <div class="story">  
             <h2> Our story </h2>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -27,7 +45,7 @@
                     Place: 5th Avenue, NY</p>
                 </div>
 
-            <div class="hotels">
+            <div id="hotels">
             <h2>Hotels</h2>
                 <p><b>Hotel Palms Beach</b><br>Distance from party location: 0.2 km</p>
                 <a href="http://www.thepalmsbeachresort.com/" target="blank"><img src="images/hotel1.jpg" alt="Hotel Palms Beach" width="980" height="584"></a>
@@ -43,7 +61,7 @@
                     <a class="cta-button" href="https://www.booking.com/">See all hotels</a>
                 </div>
 
-            <div class="gifts">   
+            <div id="gifts">   
             <h2>Gift list</h2>
             <img src="images/gift.jpg" alt="gift box">
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -51,7 +69,7 @@
                     
                     See gift list</p></div>
                     
-            <div class="menue">        
+            <div id="menue">        
             <h2>Menue</h2>
             <img src="images/menue_new.jpg" alt="menue">
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -59,7 +77,7 @@
                 
                     See menue & allergies</p></div>
 
-            <div class="contact"> 
+            <div id="contact"> 
                 <h2>Contact</h2>
                 <img src="images/bridesmaid.jpg" alt="bridesmaid" width="450" height="302">
                 <p><b>Alexa Brown</b><br>alexa.brown@googlemail.com<br></p>
