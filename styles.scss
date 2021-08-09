@@ -215,6 +215,24 @@ img {
     }
 }
 
+.timer {
+  position: relative;
+    padding-top: 10px;
+    height: 200px;
+	z-index: -1;
+	margin-top: 65px;
+    img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        max-height: 100%;
+        opacity: 0.2;
+        object-fit: cover;
+        width: 100%;
+        min-height: 100%;
+    }
+}
+
 .textbox {
     background: rgba(232, 226, 220, 0.7);
     padding-top: 40px;
@@ -228,7 +246,8 @@ img {
     background: rgba(168, 136, 142, 0.7);
     img {
         border-radius: 30px;
-         height: auto;
+        max-width: 50%;
+        height: auto;
     }
     p{
         padding-bottom: 80px;
