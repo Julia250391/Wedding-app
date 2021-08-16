@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap');
-//navigartionStart
+//START navigartion styles
 body {
 	background-color: #f9f9f9;
 	margin: 0;
@@ -54,7 +54,7 @@ body {
 	top: 0; /* Position the navbar at the top of the page */
 	width: 100%; /* Full width */
   }
-//menu toggle
+//menu toggle styles
   #menuToggle {
 	display: flex;
 	flex-direction: column;
@@ -119,7 +119,7 @@ body {
   {
 	transform: rotate(-45deg) translate(0, -1px);
   }
-//menu
+//menu styles
   #menu
   {
 	position: absolute;
@@ -146,9 +146,9 @@ body {
   {
 	transform: none;
   }
-//NavigationEND
+// END Navigation styles
 
-//format for h1, h2 and paragraphs
+//styles for h1, h2 and paragraphs
 h1 {
     font-family: 'WindSong', cursive;
     font-style: normal;
@@ -175,7 +175,7 @@ p {
     padding: 20px;
     padding: 0 40px;
 }
-//format for body, header and main
+//styles for body, header and main
 body {
     margin:0px;
 }
@@ -190,7 +190,7 @@ main {
     text-align: center;
 }
 
-//format images and their nestings
+//styles for images and their nestings
 img {
     max-width: 100%;
     height: auto;
@@ -235,7 +235,7 @@ img {
     padding-bottom: 20px; 
     }
 
-//format for contacts ID inkl. footer, index page and button
+//styles for contacts ID inkl. footer, index page and button
 #contact {
     text-align:center;
     background: rgba(168, 136, 142, 0.7);
@@ -278,7 +278,7 @@ img {
     
 }
 
-//format for gifts ID
+//styles for gifts ID
 #gifts {
   position: relative;
   height: 250px;
@@ -295,15 +295,14 @@ img {
     }
 }
 
-//format for menue ID
+//styles for menue ID
 #menue {
         background: rgba(232, 226, 220, 0.7);
         padding-bottom: 15px;
       }
 
-//format for gifts class incl. nestings
+//styles for gifts class incl. nestings
 .gifts-page {
-    // here gift-page specific styles
     h1 {
         font-size: 30px;
     }
