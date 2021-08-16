@@ -23,9 +23,6 @@ body {
 	padding: 0;
 	list-style-type: none;
   }
-  
-  
-  
   .container {
 	margin-top: 50px; 
 	Display: flex;
@@ -57,8 +54,7 @@ body {
 	top: 0; /* Position the navbar at the top of the page */
 	width: 100%; /* Full width */
   }
-  
-  
+//menu toggle
   #menuToggle {
 	display: flex;
 	flex-direction: column;
@@ -123,7 +119,7 @@ body {
   {
 	transform: rotate(-45deg) translate(0, -1px);
   }
-  
+//menu
   #menu
   {
 	position: absolute;
@@ -152,6 +148,7 @@ body {
   }
 //NavigationEND
 
+//format for h1, h2 and paragraphs
 h1 {
     font-family: 'WindSong', cursive;
     font-style: normal;
@@ -178,7 +175,7 @@ p {
     padding: 20px;
     padding: 0 40px;
 }
-
+//format for body, header and main
 body {
     margin:0px;
 }
@@ -192,6 +189,8 @@ main {
     padding-top: 0;
     text-align: center;
 }
+
+//format images and their nestings
 img {
     max-width: 100%;
     height: auto;
@@ -236,6 +235,7 @@ img {
     padding-bottom: 20px; 
     }
 
+//format for contacts ID inkl. footer, index page and button
 #contact {
     text-align:center;
     background: rgba(168, 136, 142, 0.7);
@@ -277,6 +277,8 @@ img {
     }
     
 }
+
+//format for gifts ID
 #gifts {
   position: relative;
   height: 250px;
@@ -292,11 +294,14 @@ img {
         min-height: 100%;
     }
 }
+
+//format for menue ID
 #menue {
         background: rgba(232, 226, 220, 0.7);
         padding-bottom: 15px;
       }
 
+//format for gifts class incl. nestings
 .gifts-page {
     // here gift-page specific styles
     h1 {
@@ -324,5 +329,3 @@ img {
         }
     }
 }
-
-
